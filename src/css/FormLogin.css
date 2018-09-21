@@ -1,0 +1,53 @@
+.demoForm {
+  margin: auto;
+}
+
+.openEye {
+  position: relative;
+  left: 325px;
+  top: -30px;
+}
+
+.closeEye {
+  position: relative;
+  left: 325px;
+  top: -30px;
+}
+
+.eyesTooltip {
+  position: relative;
+  display: inline-block;
+  height: 5px;
+}
+
+.eyesTooltip .eyesTooltipText {
+  visibility: hidden;
+  width: 150px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 2px 0;
+  font-size: 17px;
+  top: -30px;
+  left: 360px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.eyesTooltip .eyesTooltipText::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+
+.eyesTooltip:hover .eyesTooltipText {
+  visibility: visible;
+}

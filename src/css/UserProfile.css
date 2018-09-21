@@ -1,0 +1,54 @@
+.editing {
+  background-color: #fffde7;
+}
+
+.displaySettingUserProfile {
+  display: inline;
+}
+
+.userProfile_dNameLabel {
+  max-width: 300px;
+
+  background-color: #c7def7;
+  min-height: 20px;
+  max-height: auto;
+  height: auto;
+  width: 200px;
+  border-radius: 50px;
+  padding: 8px;
+  position: relative !important;
+  right: 0px !important;
+  top: 5px !important;
+}
+
+.userProfile_dNameTExt {
+  max-width: 300px;
+  position: relative !important;
+  right: 0px !important;
+  top: -15px !important;
+}
+
+#iconPencil {
+  position: relative !important;
+  top: -35px !important;
+  left: 410px !important;
+}
+
+#iconCheck {
+  position: relative !important;
+  top: -39px !important;
+  left: 400px !important;
+}
+
+#iconCancel {
+  position: relative !important;
+  top: -63px !important;
+  left: 425px !important;
+}
+
+/* h1 {
+    color: #03A9F4;
+    padding: 10px;
+    border: 1px solid #03A9F4;
+    background-color: #E1F5FE;
+  } */

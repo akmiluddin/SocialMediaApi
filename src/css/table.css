@@ -1,0 +1,33 @@
+#userTable {
+  table-layout: fixed;
+  font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+}
+
+#userTable td,
+#userTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#userTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#userTable tr:hover {
+  background-color: #ddd;
+}
+
+#userTable th {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: left;
+  background-color: rgba(2, 105, 239, 0.829);
+  color: white;
+}
+
+#userTable td {
+  cursor: pointer;
+}
